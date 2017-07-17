@@ -1,9 +1,9 @@
 all: servidor cliente
 
-servidor: servidor.c 
+servidorT: servidor.c 
 	gcc -Wall -g $^ -o $@
 
-cliente: cliente.c 
+clienteT: cliente.c 
 	gcc -Wall $^ -o $@
 
 clean:
