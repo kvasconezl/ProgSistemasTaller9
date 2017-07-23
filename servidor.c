@@ -117,9 +117,13 @@ int main( int argc, char *argv[]) {
 	char *host; 
 
 	if(argc == 1){
-		printf("Uso: ./servidor <numero de puerto> /direccion_imagen_servidor /direccion_imagen_local\n");
+		printf("Uso: ./servidor <numero de puerto>\n");
 		exit(-1);
 	}
+	if(argc!= 2){
+		printf("Por favor verifique si ha ingresado su ip\n");
+		exit(-1);
+		}
 
 	if(argc != 3){
 		printf( "por favor especificar un numero de puerto\n");
