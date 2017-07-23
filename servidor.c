@@ -120,14 +120,8 @@ int main( int argc, char *argv[]) {
 		printf("Uso: ./servidor <numero de puerto>\n");
 		exit(-1);
 	}
-	if(argc!= 2){
-		printf("Por favor verifique si ha ingresado su ip\n");
-		exit(-1);
-		}
+	
 
-	if(argc != 3){
-		printf( "por favor especificar un numero de puerto\n");
-	}
 
 	int puerto = atoi(argv[2]);
 
