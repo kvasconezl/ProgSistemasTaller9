@@ -1,7 +1,7 @@
 import random as r
 import os
 
-directorio = './archivos_aleatorios/'
+directorio = './archivos_generados/'
 
 if not os.path.exists(directorio):
     os.makedirs(directorio)
